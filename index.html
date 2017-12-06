@@ -1,0 +1,658 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>FROB ICO</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+  <script src="https://www.amcharts.com/lib/3/serial.js"></script>
+  <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+  <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />				
+
+  <link rel="stylesheet" href="assets/css/styles.css?v=1.0">
+  <link rel="stylesheet" href="assets/css/responsive.css?v=1.0">
+  <link rel="stylesheet" href="assets/css/aos.css?v=1.0">
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+    <div class="mobileSidebar" id="mobileSidebar">
+        <div class="movNav">
+            <ul>
+                <a href="index.html" class="active">Home</a>
+                <a target="_blank" href="media/whitepaper.pdf">Whitepaper</a>
+                <a href="#faq">FAQ</a>
+                <a href="/forum">Frob Forum</a>
+            </ul>
+        </div>
+    </div>
+    <div class="siteFlexContainer">
+        <div class="homeTopContainer">
+            <div class="navBarContainer">
+                <div class="navLeft">
+                    <img src="assets/img/logo.png"/>
+                </div>
+                <div class="navRight">
+                    <ul>
+                        <a href="index.html" class="active">Home</a>
+                        <a target="_blank" href="media/whitepaper.pdf">Whitepaper</a>
+                        <a href="#faq">FAQ</a>
+                        <a href="/forum">Frob Forum</a>
+                    </ul>
+                </div>
+                <div class="mobileNav">
+                    <a id="mobileNavButton"><i class="ion ion-navicon-round"></i></a>
+                </div>
+            </div>
+            <div class="jumbotronContainer">
+                <div class="jumboLeft">
+                    <div class="jumboLeftSub">
+                        <h4 data-aos="fade-right" data-aos-delay="0">FROB is a digital currency based on the DAG</h4>
+                        <h2 data-aos="fade-right" data-aos-delay="0">FROB is a project aimed to disrupt the Bitcoin gambling market.</h2>
+                    </div>
+                    <a data-aos="fade-right" data-aos-delay="0">Get <strong>5000</strong> free FROB</a>
+                    <p data-aos="fade-right" data-aos-delay="0">* By using our web wallet</p>
+                </div>
+                <div class="jumboRight">
+                    <div class="icoBlock" data-aos="fade-left" data-aos-delay="0">
+                        <div class="icoTop">
+                            <h4>FROB RELEASES IN</h4>
+                        </div>
+                        <div class="icoBody">
+                            <ul>
+                                <li>
+                                    <h2>8</h2>
+                                    <p>Days</p> 
+                                </li>
+                                <li>:</li>
+                                <li>
+                                    <h2>28</h2>
+                                    <p>Hours</p> 
+                                </li>
+                                <li>:</li>
+                                <li>
+                                    <h2>01</h2>
+                                    <p>Minutes</p> 
+                                </li>
+                                <li>:</li>
+                                <li>
+                                    <h2>34</h2>
+                                    <p>Seconds</p> 
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="socialContainerTop">
+                            <h4>Meanwhile, come talk to us!</h4>
+                            <div class="actualSocial">
+                                <a href="https://discord.gg/KjfDp7u" target="_blank"><img src="assets/img/discord.svg"></a>
+                                <a href="https://discord.gg/KjfDp7u" target="_blank"><img src="assets/img/slack.svg"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="planet2"></div>   
+            <div class="cloud2"></div>   
+            <div class="wave2"></div>            
+        </div>
+        <section class="sectionContainer gradient" id="whitePaper"> 
+            <div class="whitePaperSection">
+                <div class="sectionTitle" data-aos="fade-up">
+                    <h4>What is FROB?</h4>
+                </div>
+                <div class="sectionBody" data-aos="fade-up">
+                    <div class="leftSectionBody">
+                        <p>FROB is a Byteball digital asset token designed to disrupt the PvP gaming market. FROB uses smart contracts and oracles to provide fair, untraceable transactions for casual gamers. It can also be exchanged for Bitcoin using a decentralised peer-to-peer platform. FROB is used to compete in PvP (player versus player) games created by FROB developers and community members. FROB will use oracles and smart contracts to provide proof of fair play in each PvP game. FROB offers untraceable peer-to-peer transactions.</p>
+                    </div>
+                    <div class="rightSection">
+                        <div class="downloadBlock">
+                            <div class="dBlockTop">
+                                <i class="ion ion-ios-paper"></i>
+                            </div>
+                            <div class="dBlockFoot">
+                                <div class="dBlockFootIn">
+                                    <h4>FROB whitepaper available for download now</h4>
+                                    <p>FROB is the worlds best gaming coin and is super super amazing...</p>
+                                </div>
+                                <a target="_blank" href="media/whitepaper.pdf" class="dBlockBtn">Download Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionContainer" >
+            <div class="chartAndStats" data-aos="fade-up">
+                <div class="chartContainer">
+                    <h4>Frob Reward</h4>
+                    <div id="chartdiv_304" style="width: 100%;" ></div>
+                    <h4>Frob In Circulation</h4>
+                </div>
+                <div class="statsContainer">
+                    <div class="topSC">
+                        <h4>Current Frob Reward</h4>
+                        <span>2,000</span>
+                    </div>
+                    <div class="botSC">
+                        <h4>Frob in circulation</h4>
+                        <span>184,338</span>
+                    </div>
+                    <div class="getNow">
+                        <a>Get <strong>5000</strong> free FROB</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionContainer gradient" id="whitePaper"> 
+            <div class="whitePaperSection">
+                <div class="sectionTitle" data-aos="fade-up">
+                    <h4>FROB Apps</h4>
+                </div>
+                <div class="sectionBody" data-aos="fade-up">
+                    <div class="flexIso">
+                        <div class="dualSection">
+                            <div class="sectionHeader">
+                                <h4>Rockette</h4>
+                                <p>Users will receive FROB using ‘Rocket’, a free-to-play game of luck where players are placed on space-rocket and travel the cosmos in search of FROB. Unfortunately, their rockets are rigged to explode at a random interval between the ground and the edge of the Milky Way galaxy. Luckily the players are immortal and can start again from the launchpad to ﬁnd more FROB!</p>
+                            </div>
+                            <div class="isoMetric">
+                                <img class="cloudLeft floatDelay3" src="media/isometric/clouds.png">
+                                <img class="cloudMid floatDelay2" src="media/isometric/clouds.png">
+                                <img class="cloudRight floatDelay" src="media/isometric/clouds.png">
+                                <img class="kraken floatDelay4" src="media/isometric/kraken.png">
+                                <img class="rocketMan floatDelay5" src="media/isometric/rocketMan.png">
+                                <img class="platformGrass float" src="media/isometric/platform.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionContainer gradient">
+            <div class="roadMapContainer">
+                <div class="sectionTitle">
+                    <h4>Roadmap</h4>
+                </div>
+                <div>
+                    <div class="mapContainer">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 1246 39.3" style="enable-background:new 0 0 1246 39.3;" xml:space="preserve">
+                   <style type="text/css">
+                       .st0{fill-opacity:0;stroke:#454662;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:280,280;}
+                       .st1{fill-opacity:0;stroke:#454662;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:300,300;}
+                       .st2{fill:#FFD372;stroke:#FFD372;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:51,51;}
+                       .st3{fill:#454662;stroke:#454662;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:51,51;}
+                   </style>
+                   <path class="st0" d="M38,17h280"/>
+                   <path class="st1" d="M318,17h300"/>
+                   <path class="st1" d="M618,17h300"/>
+                   <path class="st1" d="M918,17h300"/>
+                   <path class="st2" d="M37.9,9c-4.4,0-8,3.6-7.9,8c0,4.4,3.6,8,8,7.9c4.4,0,8-3.6,7.9-8C45.9,12.6,42.4,9,37.9,9"/>
+                   <path class="st3" d="M317.9,9c-4.4,0-8,3.6-7.9,8s3.6,8,8,7.9c4.4,0,8-3.6,7.9-8c0-4.4-3.6-7.9-7.9-7.9"/>
+                   <path class="st3" d="M617.9,9c-4.4,0-8,3.6-7.9,8c0,4.4,3.6,8,8,7.9c4.4,0,8-3.6,7.9-8C625.9,12.6,622.4,9,617.9,9"/>
+                   <path class="st3" d="M917.9,9c-4.4,0-8,3.6-7.9,8c0,4.4,3.6,8,8,7.9c4.4,0,8-3.6,7.9-8C925.9,12.6,922.4,9,917.9,9"/>
+                   </svg>
+                    </div>
+                    <div class="mobileMapContainer">
+                        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.83 775.17">
+                            <defs>
+                                <style>.cls-1{fill:#454662;}</style></defs><title>Untitled-1</title>
+                                
+                                
+                                <rect class="cls-1" x="5.17" y="296.81" width="15" height="154.62" rx="7.5" ry="7.5"></rect>
+                                <rect class="cls-1" x="5.17" y="146.81" width="15" height="154.62" rx="7.5" ry="7.5"></rect>
+                                <rect class="cls-1" x="5.17" y="3.81" width="15" height="154.62" rx="7.5" ry="7.5"></rect>
+                                <circle class="cls-1" cx="12.67" cy="12.5" r="12.5"></circle>
+                                <circle class="cls-1" cx="12.67" cy="300.83" r="12.5"></circle>
+                                <circle class="cls-1" cx="12.5" cy="147.83" r="12.5"></circle>
+                                
+                                <circle class="cls-1" cx="13.17" cy="436.33" r="12.5"></circle>
+                                
+                            </svg>
+                    </div>
+                    <div class="roadMapOverlay">
+                        <div class="rmRow">
+                            <div class="rmBlock" data-aos="fade-up" data-aos-delay="0">
+                                <h4>November 29th 2017</h4>
+                                <p>FROB is announced (29th Nov)</p>
+                                <p>10% introductory airdrop and contests begin.</p>
+                            </div>
+                            <div class="rmBlock" data-aos="fade-up" data-aos-delay="250">
+                                <h4>January 5th 2018</h4>
+                                <p>90% game-drop begins with mobile wallet and Rockette game release.</p>
+                                <p>Smart contract RSK testnet release.</p>
+                                <p>Byteball smart contracts live beta release.</p>
+                            </div>
+                            <div class="rmBlock" data-aos="fade-up" data-aos-delay="500">
+                                <h4>March 5th 2018</h4>
+                                <p>FROB becomes available on cryptocurrency exchanges (subject to change).</p>
+                                <p>Additional support for peer-to-peer trading.</p>
+                            </div>
+                            <div class="rmBlock" data-aos="fade-up" data-aos-delay="750">
+                                <h4>Q3 2018</h4>
+                                <p>RSK release candidate for smart contract trading.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionContainer gradient">
+            <div class="teamContainerMain">
+                <div class="sectionTitle" data-aos="fade-up" data-aos-delay="0">
+                        <h4>Meet the team</h4>
+                </div>
+                <div class="teamContainerWrapper">
+                    <div class="teamContainer">
+                        <div class="teamChild"  data-aos="fade-up" data-aos-delay="250">
+                            <img src="https://image.flaticon.com/icons/svg/122/122454.svg">
+                            <div class="teamText">
+                                <h4>David Horton</h4>
+                                <p>Chief Executive Officer</p>
+                                <ul>
+                                    <a class="contactBtn">Contact me</a> 
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="teamChild" data-aos="fade-up" data-aos-delay="500">
+                            <img src="https://image.flaticon.com/icons/svg/122/122478.svg">
+                            <div class="teamText"> 
+                                <h4>David Horton</h4>
+                                <p>Chief Technical Officer</p>
+                                <ul>
+                                    <a class="contactBtn">Contact me</a> 
+                                </ul>
+                            </div> 
+                        </div>
+                        <div class="teamChild" data-aos="fade-up" data-aos-delay="750">
+                            <img src="https://image.flaticon.com/icons/svg/122/122448.svg">
+                            <div class="teamText">
+                                <h4>David Horton</h4>
+                                <p>Chief Marketing Officer</p>
+                                <ul>
+                                    <a class="contactBtn">Contact me</a> 
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="teamChild" data-aos="fade-up" data-aos-delay="1000">
+                            <img src="https://image.flaticon.com/icons/svg/122/122481.svg">
+                            <div class="teamText">
+                                <h4>David Horton</h4>
+                                <p>Lead Designer</p>
+                                <ul>
+                                    <a class="contactBtn">Contact me</a> 
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionContainer gradient">
+            <div class="teamContainerMain">
+                <div class="sectionTitle" data-aos="fade-up" data-aos-delay="0">
+                    <h4>No Token Sale Or ICO</h4>
+                </div>
+                <div class="pieContainer" data-aos="fade-up">
+                    <div class="pieIndividual">
+                        <h4>5%</h4>
+                        <p>Introductory Airdrop</p>
+                        <img src="media/isometric/pie5.png">
+                    </div>
+                    <div class="pieIndividual">
+                        <h4>90%</h4>
+                        <p>Rockette Airdrop</p>
+                        <img src="media/isometric/pie90.png">
+                    </div>
+                    <div class="pieIndividual">
+                        <h4>5%</h4>
+                        <p>Creative Contests/Bounties</p>
+                        <img src="media/isometric/pie5.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionContainer gradient" id="faq"> 
+            <div class="faqContainer" data-aos="fade-up" data-aos-delay="0">
+                <div class="sectionTitle">
+                        <h4>Frequent Questions</h4>
+                </div>
+                <div class="faq-c">
+                    <div class="faq-q"><span class="faq-t">+</span>What is the meaning of life?</div>
+                    <div class="faq-a">
+                    <p>42</p>
+                    </div>
+                </div>
+                
+                <div class="faq-c">
+                    <div class="faq-q"><span class="faq-t">+</span>How much wood would a woodchuck chuck?</div>
+                    <div class="faq-a">
+                    <p>A woodchuck would chuck all the wood he could chuck, if a woodchuck could chuck wood!</p>
+                    </div>
+                </div>
+                
+                <div class="faq-c">
+                    <div class="faq-q"><span class="faq-t">+</span>What happens if Pinocchio says, "my nose will grow now"</div>
+                    <div class="faq-a">
+                    <p>Certain questions are better left &nbsp; <a href="https://en.wikipedia.org/wiki/The_Unanswered_Question">unanswered</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="footerContainer">
+            <div class="footer">
+                <div class="footerLeft">
+                    <h4>getFROB.com</h4>
+                    <p>powered by The FROB Team</p>
+                </div>
+                <div class="footerRight">
+                    <ul>
+                        <a>Twitter</a>
+                        <a>Bitcointalk</a>
+                        <a href="/forum">Forum</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/amcharts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script> -->
+    <!-- <script src="assets/js/pie.js"></script> -->
+    <script src="assets/js/serial.js"></script>
+    <script src="assets/js/scripts.js"></script>
+
+
+
+    <script type="text/javascript">
+var chart = AmCharts.makeChart("chartdiv_304", 
+{
+  "type": "serial",
+  "theme": "black",
+  "marginRight": 30,
+  "addClassNames": true,
+  "marginLeft": 0,
+  "autoMarginOffset":20,
+  "dataDateFormat": "YYYY-MM-DD",
+  "valueAxes": [ {
+    "id": "v1",
+  "gridAlpha": 0,
+      "maximum": 5100,
+ "gridColor": "#454662",
+    "axisAlpha": 0,
+    "position": "left",
+    "ignoreAxisWidth": false
+  } ],
+  "balloon": {
+    "borderThickness": 0,
+    "shadowAlpha": 0
+  },
+  "graphs": [ {
+    "id": "g1",
+    "balloon": {
+      "drop": false,
+      "adjustBorderColor": true,
+      "color": "#000",
+      "type": "smoothedLine",
+      "shadowColor": "#000"
+    },
+    "fillAlphas": 0.2,
+    "bullet": "none",
+    "hideBulletsCount": 0,
+    "bulletBorderAlpha": 1,
+    "bulletColor": "#ffd372",
+    "bulletSize": 10,
+    "hideBulletsCount": 50,
+    "lineThickness": 5,
+    "lineColor": "#ffd372",
+    "title": "red line",
+    "useLineColorForBulletBorder": false,
+    "valueField": "value",
+    "balloonText": "<span style='font-size:18px;'>[[value]]</span>"
+  } ],
+  "chartCursor": {
+    "valueLineEnabled": false,
+    "valueLineBalloonEnabled": true,
+    "cursorAlpha": 0,
+    "zoomable": false,
+    "valueZoomable": false,
+    "valueLineAlpha": 0.75,
+    "cursorColor": "#000"
+  },
+
+  "categoryField": "date",
+  "categoryAxis": {
+      "gridAlpha": 0,
+      "gridColor": "#fff",
+      "startOnAxis": true,
+      "equalSpacing":true,
+      "axisAlpha": 0,
+    "parseDates": false,
+    "dashLength": 1,
+    "minorGridEnabled": false
+  },
+  "export": {
+    "enabled": false
+  },
+  "dataProvider": [ {
+    "date": "0",
+    "value": 5000
+  }, {
+    "date": "200K",
+    "value": 4500
+  }, {
+    "date": "350K",
+    "value": 4000
+  }, {
+    "date": "500K",
+    "value": 3500
+  }, {
+    "date": "650K",
+    "value": 3000
+  }, {
+    "date": "800K",
+    "value": 2500
+  }, {
+    "date": "1M",
+    "value": 2000
+  }]
+}
+
+
+
+
+
+
+
+// {
+//     "type": "serial",
+//     "theme": "light",
+//     "addClassNames": true,
+//     "marginLeft": 0,
+//     "marginRight": 0,
+//     "marginTop": 5,
+//     "marginBottom": 0,
+//     "autoMarginOffset": 25,
+//     "startDuration": 2,
+//     "sequencedAnimation": false,
+//     "dataProvider": [ {
+//       "month": "0",
+//       "value1": 5000,
+//       "value2": 0,
+//       "value3": 0,
+//       "value4": 4000,
+//       "color": "#ffd372"
+//     }, {
+//       "month": "100K",
+//       "value1": 4500,
+//       "value2": 0,
+//       "value3": 0,
+//       "value4": 3500,
+//       "color": "#ffbb44"
+//     }, {
+//       "month": "500K",
+//       "value1": 4000,
+//       "value2": 0,
+//       "value3": 0,
+//       "value4": 3000,
+//       "color": "#ffd372"
+//     }, {
+//       "month": "700K",
+//       "value1": 3500,
+//       "value2": 0,
+//       "value3": 0,
+//       "value4": 2500,
+//       "color": "#ffbb44"
+//     }, {
+//       "month": "1.1M",
+//       "value1": 3000,
+//       "value2": 0,
+//       "value3": 0,
+//       "value4": 2000,
+//       "color": "#ffd372"
+//     }, {
+//       "month": "2.5M",
+//       "value1": 2500,
+//       "value2": 0,
+//       "value3": 0,
+//       "value4": 1500,
+//       "color": "#ffbb44"
+//     }, {
+//       "month": "4.4M",
+//       "value1": 2000,
+//       "value2": 0,
+//       "value3": 0,
+//       "value4": 1000,
+//       "color": "#ffd372"
+//     }, {
+//       "month": "7.5M",
+//       "value1": 1500,
+//       "value2": 0,
+//       "value3": 0,
+//       "value4": 500,
+//       "color": "#ffbb44"
+//     }, {
+//       "month": "10.5M",
+//       "value1": 1000,
+//       "value2": 0,
+//       "value3": 0,
+//       "value4": 0,
+//       "color": "#ffd372"
+//     }, {
+//       "month": "12.8M",
+//       "value1": 500,
+//       "value2": 0,
+//       "value3": 0,
+//       "value4": -500,
+//       "color": "#ffbb44"
+//     }],
+//     "graphs": [{
+//       "id": "g1",
+//       "lineAlpha": 0,
+//       "lineThickness": 5,
+//       "valueField": "value1",
+//       "showBalloon": false
+//     }, {
+//       "id": "g2",
+//       "lineAlpha": 0,
+//       "lineColor": "#000",
+//       "lineThickness": 0,
+//       "fillColors": "#ffd372",
+//       "fillColorsField": "color",
+//       "fillAlphas": 1,
+//       "valueField": "value2",
+//       "showBalloon": false
+//     }, {
+//       "id": "g3",
+//       "lineAlpha": 1,
+//       "lineColor": "#ffd372",
+//       "lineThickness": 5,
+//       "valueField": "value3",
+//       "balloonColor": "#5fb3f3",
+//       "balloonText": "[[value1]]",
+//       "balloon": {
+//         "drop": false,
+//         "adjustBorderColor": false,
+//         "color": "#ffffff"      
+//       }
+//     }, {
+//       "id": "g4",
+//       "lineAlpha": 1,
+//       "lineColor": "#000",
+//       "lineThickness": 5,
+//       "valueField": "value4",
+//       "showBalloon": false,
+//       "stackable": false,
+//       "lineAlpha": 0.6
+//       }
+//     ],
+//     "categoryField": "month",
+//     "categoryAxis": {
+//       "color": "#5e5f84",
+//       "axisColor": "#454662",
+//       "gridColor": "#454662",
+//       "gridAlpha": 1,
+//       "startOnAxis": false,
+//       "balloon":{
+//         "fillAlpha":1,
+//         "fontSize":15,
+//         "horizontalPadding":10
+//       }
+//     },
+//     "valueAxes": [{
+//       "stackType": "regular",
+//       "gridAlpha": 1,
+//       "gridColor": "#454662",
+//       "axisAlpha": 0,
+//       "labelsEnabled": true,
+//       "minimum": 0,
+//       "maximum": 5000,
+//       "ignoreAxisWidth": false
+//     }],
+//     "balloon": {
+//       "borderThickness": 4,
+//       "shadowAlpha": 0,
+//       "fontSize": 18,
+//       "adjustBorderColor": true,
+//       "borderColor": "#fb4",
+//       "fillColor": "#000",
+//       "fillAlpha": 0,
+//       "shadowColor": "#fff"
+//     },
+//     "chartCursor": {
+//       "cursorAlpha": 0.7,
+//       "cursorColor": "#5fb3f3",
+//       "limitToGraph": "g3",
+//       "categoryBalloonColor": "#fed272",
+//       "categoryBalloonAlpha": 1,
+//       "zoomable": true
+//     },
+//     "defs": {
+//       "filter": [{
+//         "x": "-50%",
+//         "y": "-50%",
+//         "width": "200%",
+//         "height": "200%",
+//         "id": "blur",
+//         "feGaussianBlur": {
+//           "in": "SourceGraphic",
+//           "stdDeviation": "15"
+//         }
+//       }]
+//     }
+//   }
+);
+    </script>
+
+</body>
+</html>
